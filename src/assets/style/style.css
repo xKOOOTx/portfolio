@@ -17,10 +17,37 @@ li {
   list-style: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: Roboto;
+  font-style: normal;
+  color: #173B6C;
+}
+
+h1 {
+  font-size: 60px;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+p {
+  font-family: Open Sans;
+  font-style: normal;
+  color: #000000;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 100%;
   color: #FFFFFF;
+}
+body::-webkit-scrollbar {
+  width: 3px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #cccccc;
+}
+body::-webkit-scrollbar-track {
+  background: #040B14;
 }
 
 /*# sourceMappingURL=style.css.map */

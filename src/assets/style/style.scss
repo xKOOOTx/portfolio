@@ -19,8 +19,36 @@ li {
   list-style: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: Roboto;
+  font-style: normal;
+  color: $textHeaders;
+}
+h1 {
+  font-size: 60px;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+p {
+  font-family: Open Sans;
+  font-style: normal;
+  color: $black;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 100%;
   color: $white;
+  &::-webkit-scrollbar {
+    width: 3px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $grey;
+  }
+  &::-webkit-scrollbar-track {
+    background: $darkPurple;
+
+  }
 }
+

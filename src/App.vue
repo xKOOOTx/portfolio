@@ -1,12 +1,26 @@
 <template>
   <Home />
+  <About />
+  <Resume />
+  <Portfolio />
+  <ContactMe />
 </template>
 
 <script>
-import Home from '@/views/Home.vue';
+import Home from '@/components/Home.vue';
+import About from '@/components/About.vue';
+import Resume from '@/components/Resume.vue';
+import Portfolio from '@/components/Portfolio.vue';
+import ContactMe from '@/components/ContactMe.vue';
 
 export default {
-  components: { Home },
+  components: {
+    Home,
+    About,
+    Resume,
+    Portfolio,
+    ContactMe,
+  },
 };
 </script>
 <style lang="scss">
@@ -16,5 +30,6 @@ export default {
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 </style>
